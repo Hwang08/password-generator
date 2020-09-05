@@ -2,76 +2,75 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Password Generater 🔒</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Password Generater 🔒</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
 </head>
 
 <body>
-    <nav id="nav">
-            <ul class="nav-links">
-                <li id="logo-li">
-                    <a id="logo" href="http://pathwang.com"><img id="grafiti-img" src="GrafitiA2colorcircle.png"
-                            alt="pats-grafiti-img" /></a>
-                </li>
-                <li>
-                    <a class="btn" href="https://www.linkedin.com/in/patrick-hwang-695275179/">
-                        <i class="fab fa-linkedin fa-lg"></i>
-                    </a>
-                </li>
-                <li>
-                    <a class="btn" href="https://github.com/Hwang08">
-                        <i class="fab fa-github fa-lg"></i>
-                    </a>
-                </li>
-                <li id="twitter-li">
-                    <a class="btn" href="https://twitter.com/PatHwang8">
-                        <i class="fab fa-twitter fa-lg"></i>
-                    </a>
-                </li>
-            </ul>
-    </nav>
+  <nav id="nav">
+    <ul class="nav-links">
+      <li id="logo-li">
+        <a id="logo" href="http://pathwang.com"><img id="grafiti-img" src="PMH1.5.png" alt="pats-grafiti-img" /></a>
+      </li>
+      <li>
+        <a class="btn" href="https://www.linkedin.com/in/patrick-hwang-695275179/">
+          <i class="fab fa-linkedin fa-lg"></i>
+        </a>
+      </li>
+      <li>
+        <a class="btn" href="https://github.com/Hwang08">
+          <i class="fab fa-github fa-lg"></i>
+        </a>
+      </li>
+      <li id="twitter-li">
+        <a class="btn" href="https://twitter.com/PatHwang8">
+          <i class="fab fa-twitter fa-lg"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
 
-    <div class="container">
-        <h1>Password Generator 🔒</h1>
-        <div class="result-container">
-            <span id="result"></span>
-            <button class="btn" id="clipboard" title="Copy">
-                <i class="far fa-clipboard"></i>
-            </button>
-        </div>
-        <div class="settings">
-            <div class="setting">
-                <label>Password length</label>
-                <input type="number" id="length" min='4' max='20' value='20' />
-            </div>
-            <div class="setting">
-                <label>Include uppercase letters</label>
-                <input type="checkbox" id="uppercase" checked />
-            </div>
-            <div class="setting">
-                <label>Include lowercase letters</label>
-                <input type="checkbox" id="lowercase" checked />
-            </div>
-            <div class="setting">
-                <label>Include numbers</label>
-                <input type="checkbox" id="numbers" checked />
-            </div>
-            <div class="setting">
-                <label>Include symbols</label>
-                <input type="checkbox" id="symbols" checked />
-            </div>
-        </div>
-        <button class="btn btn-large" id="generate">
-            Generate password
-        </button>
+  <div class="container">
+    <h1>Password Generator 🔒</h1>
+    <div class="result-container">
+      <span id="result"></span>
+      <button class="btn" id="clipboard" title="Copy">
+        <i class="far fa-clipboard"></i>
+      </button>
     </div>
+    <div class="settings">
+      <div class="setting">
+        <label>Password length</label>
+        <input type="number" id="length" min='4' max='20' value='20' />
+      </div>
+      <div class="setting">
+        <label>Include uppercase letters</label>
+        <input type="checkbox" id="uppercase" checked />
+      </div>
+      <div class="setting">
+        <label>Include lowercase letters</label>
+        <input type="checkbox" id="lowercase" checked />
+      </div>
+      <div class="setting">
+        <label>Include numbers</label>
+        <input type="checkbox" id="numbers" checked />
+      </div>
+      <div class="setting">
+        <label>Include symbols</label>
+        <input type="checkbox" id="symbols" checked />
+      </div>
+    </div>
+    <button class="btn btn-large" id="generate">
+      Generate password
+    </button>
+  </div>
 
 
-    <script src="main.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
